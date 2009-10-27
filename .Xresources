@@ -1,6 +1,6 @@
-vncviewer*fullScreen: 1
-vncviewer*userLogin: 1
-vncviewer*passwordDialog: 1
+vncviewer*fullScreen:		1
+vncviewer*userLogin:		1
+vncviewer*passwordDialog:	1
 
 floatClock*title:		floating Clock
 floatClock*update:		1
@@ -16,107 +16,35 @@ Tclock*ticksize:		1.5
 Tclock*overrideRedirect:	0
 
 Tkinfo*font:			-bitstream-bitstream vera sans-medium-r-*-*-*-*-*-*-*-*-*-*
-Tkinfo*Text.font:			-bitstream-bitstream vera sans-medium-r-*-*-*-*-*-*-*-*-*-*
+Tkinfo*Text.font:		-bitstream-bitstream vera sans-medium-r-*-*-*-*-*-*-*-*-*-*
 
-XTerm*termName:		xterm-color
-XTerm*toolBar:		off
-XTerm*background:	black
-XTerm*foreground:	lightgrey
-XTerm*cursorColor:	green
-XTerm*loginShell:	1
-XTerm*metaSendsEscape:	1
-!XTerm*boldMode:		1
-!XTerm*colorBDMode:	1
-!XTerm*font:		-misc-fixed-medium-r-normal--13-*-*-*-*-*-iso8859-15
-!XTerm*boldFont:		-misc-fixed-medium-r-normal--13-*-*-*-*-*-iso8859-15
-XTerm*faceName:		Bitstream Vera Sans Mono
-!XTerm*faceNameDoublesize:	Bitstream Vera Sans Mono
-XTerm*faceSize:		12
-!XTerm*ttyModes:         erase ^?
-!XTerm*VT100.translations: \
-!        #override <Key>BackSpace: string(0x7f) \n \
-!		  <Key>Delete:    string(0x1b) string("[3~") \n \
-!		  <Key>Home: string(0x1b) string("[3~") \n \
-!		  <Key>End: string(0x1b) string("[4~") \n
-!		  <Key>Home:      string("\033[1~") \n 
-!		  <Key>End:       string("\033[4~") \n
-!
-!UXTerm*toolBar:		off
-!UXTerm*background:	black
-!UXTerm*foreground:	lightgrey
-!UXTerm*cursorColor:	green
-!UXTerm*loginShell:	1
-!UXTerm*metaSendsEscape:	1
-!UXTerm*wideChars:	0
-!UXTerm*boldMode:	1
-!UXTerm*colorBDMode:	0
-!UXTerm*font:		-bitstream-bitstream vera sans mono-medium-r-normal--0-0-0-0-m-0-iso10646-1
-!UXTerm*font:		-misc-fixed-medium-r-normal--13-*-*-*-*-*-iso8859-15
-!UXTerm*boldFont:		-misc-fixed-medium-r-normal--13-*-*-*-*-*-iso8859-15
-!UXTerm*faceName:		Bitstream Vera Sans Mono
-!UXTerm*faceNameDoublesize:	Bitstream Vera Sans Mono
-!UXTerm*faceSize:		12
-!XTerm*font:	-misc-fixed-medium-r-normal--14-130-75-75-c-70-iso8859-15
-!XTerm*boldFont:-misc-fixed-medium-r-normal--14-130-75-75-c-70-iso8859-15
-!XTerm*font:	-adobe-courier-medium-r-normal--14-100-100-100-m-90-iso8859-15
-!XTerm*boldFont:-adobe-courier-bold-r-normal--14-100-100-100-m-90-iso8859-15
-!XTerm*font:	-b&h-lucidatypewriter-medium-r-normal-sans-12-120-75-75-m-70-iso8859-15
-!XTerm*boldFont:	-b&h-lucidatypewriter-bold-r-normal-sans-12-120-75-75-m-70-iso8859-15
-!XTerm*font:	-adobe-courier-medium-r-normal--14-100-100-100-m-90-iso8859-15
-!XTerm*boldFont:	-adobe-courier-medium-r-normal--14-100-100-100-m-90-iso8859-15
+XTerm*termName:			xterm-color
+XTerm*toolBar:			off
+XTerm*background:		black
+XTerm*foreground:		lightgrey
+XTerm*cursorColor:		green
+XTerm*loginShell:		1
+XTerm*metaSendsEscape:		1
+XTerm*faceName:			Bitstream Vera Sans Mono
+XTerm*faceSize:			12
 
 !urxvt resources
-URxvt*termName:		xterm-color
-URxvt*background:	black
-URxvt*foreground:	lightgrey
-URxvt*cursorColor:	green
-URxvt*fading:		40
-URxvt*loginShell:	1
-URxvt*font:		xft:Bitstream Vera Sans Mono:pixelsize=16
-URxvt*boldFont:		xft:Bitstream Vera Sans Mono:pixelsize=16:bold
-URxvt*italicFont:	xft:Bitstream Vera Sans Mono:pixelsize=16:italic
-URxvt*boldItalicFont:	xft:Bitstream Vera Sans Mono:pixelsize=16:bold:italic
-URxvt*scrollBar:	0
-!URxvt*borderLess:	1
-!URxvt*blendType:	saturate
-!URxvt*transparent:	1
-!URxvt*tintColor:	black
-!URxvt*shading:		40
-!URxvt*jumpScroll:	0
-URxvt.perl-ext-common: default,matcher
-URxvt.urlLauncher: firefox
-URxvt.matcher.button: 1
-URxvt*matcher.pattern.1: \\b(mailto|http|https|ftp|file):[/]*[\\w-]\\.[\\w./?&@#-]*[\\w/-]
-URxvt*matcher.pattern.2: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+URxvt*termName:			xterm-color
+URxvt*background:		black
+URxvt*foreground:		lightgrey
+URxvt*cursorColor:		green
+URxvt*fading:			40
+URxvt*loginShell:		1
+URxvt*font:			xft:Bitstream Vera Sans Mono:pixelsize=16
+URxvt*boldFont:			xft:Bitstream Vera Sans Mono:pixelsize=16:bold
+URxvt*italicFont:		xft:Bitstream Vera Sans Mono:pixelsize=16:italic
+URxvt*boldItalicFont:		xft:Bitstream Vera Sans Mono:pixelsize=16:bold:italic
+URxvt*scrollBar:		0
+URxvt.perl-ext-common:		default,matcher
+URxvt.urlLauncher:		firefox
+URxvt.matcher.button:		1
+URxvt*matcher.pattern.1:	\\b(mailto|http|https|ftp|file):[/]*[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+URxvt*matcher.pattern.2: 	\\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
 
-URxvtc*title:		urxvtc
-ssh_columbus*title:	ssh columbus
-
-!mrxvt -fade 40 -fg lightgray -bg black -xft -xftfn Bitstream Vera Sans Mono -xftaa -xftht -xftah -xftga -xftsz 12 -xftwt medium -xftst roman -xftrgb vrgb -sk -si -sw -bl +ls +sb -ht
-!mrxvt*fading:		40
-!mrxvt*foreground:	lightgray
-!mrxvt*background:	black
-!mrxvt*xft:		1
-!mrxvt*xftFont:		Bitstream Vera Sans Mono
-!mrxvt*xftmFont:		Bitstream Vera Sans Mono
-!mrxvt*xftNomFont:	1
-!mrxvt*xftSlowOutput:	1
-!mrxvt*xftAntialias:	1
-!mrxvt*xftHinting:	1
-!mrxvt*xftAutoHint:	1
-!mrxvt*xftGlobalAdvance:	1
-!mrxvt*xftSize:		12
-!mrxvt*xftWeight:	medium
-!mrxvt*xftSlant:		roman
-!mrxvt*xftWidth:		normal
-!mrxvt*xftRGBA:		vrgb
-!mrxvt*scrollTtyKeypress:	1
-!mrxvt*scrollTtyOutputInhibit:	1
-!mrxvt*scrollWithBuffer:	1
-!mrxvt*colorBD:		lightgray
-!mrxvt*colorUL:		lightgray
-!mrxvt*textShadowMode:	none
-!mrxvt*borderLess:	1
-!mrxvt*loginShell:	1
-!mrxvt*scrollBar:	0
-!mrxvt*hideTabbar:	1
+URxvtc*title:			urxvtc
+ssh_columbus*title:		ssh columbus
