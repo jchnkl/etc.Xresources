@@ -34,6 +34,7 @@ URxvt*background:		black
 URxvt*foreground:		lightgrey
 URxvt*cursorColor:		green
 URxvt*fading:			40
+URxvt*fadeColor:		rgb:32/32/32
 URxvt*loginShell:		1
 URxvt*font:			xft:Bitstream Vera Sans Mono:pixelsize=16
 URxvt*boldFont:			xft:Bitstream Vera Sans Mono:pixelsize=16:bold
