@@ -29,12 +29,15 @@ XTerm*faceName:			Bitstream Vera Sans Mono
 XTerm*faceSize:			12
 
 !urxvt resources
-URxvt*termName:			xterm-color
-URxvt*background:		black
-URxvt*foreground:		lightgrey
-URxvt*cursorColor:		green
-URxvt*fading:			40
-URxvt*fadeColor:		rgb:64/64/64
+URxvt*background:		#1f1f1f
+URxvt*foreground:		#dcdccc
+URxvt*colorBD:			#dfdfbf
+URxvt*colorUL:			#ffcfaf
+URxvt*colorIT:			#7f9f7f
+URxvt*cursorColor:		#8faf9f
+URxvt*cursorColor2:		#121212
+URxvt*fadeColor:		#3f3f3f
+URxvt*fading:			33
 URxvt*loginShell:		1
 URxvt*font:			xft:Bitstream Vera Sans Mono:pixelsize=16
 URxvt*boldFont:			xft:Bitstream Vera Sans Mono:pixelsize=16:bold
