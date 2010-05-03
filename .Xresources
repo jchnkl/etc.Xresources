@@ -30,7 +30,7 @@ XTerm*faceSize:			12
 
 !urxvt resources
 #if HOSTNAME == monolith
-URxvt*termName:		        rxvt-256color-unicode
+URxvt*termName:		        rxvt-256color
 #endif
 URxvt*background:		#1f1f1f
 URxvt*foreground:		#dcdccc
