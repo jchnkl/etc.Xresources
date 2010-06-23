@@ -32,6 +32,8 @@ XTerm*faceSize:			12
 #if HOSTNAME == monolith
 URxvt*termName:		        rxvt-256color
 #endif
+URxvt*pointerBlank:		1
+URxvt*pointerBlankDelay:	1
 URxvt*background:		#1f1f1f
 URxvt*foreground:		#dcdccc
 URxvt*colorBD:			#dfdfbf
