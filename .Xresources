@@ -50,11 +50,7 @@ URxvt*italicFont:		xft:Bitstream Vera Sans Mono:pixelsize=16:italic
 URxvt*boldItalicFont:		xft:Bitstream Vera Sans Mono:pixelsize=16:bold:italic
 URxvt*scrollBar:		0
 URxvt.perl-ext-common:		default,matcher
-#if HOSTNAME == monolith
-URxvt.urlLauncher:		firefox3
-#else
 URxvt.urlLauncher:		firefox
-#endif
 URxvt.matcher.button:		1
 URxvt*matcher.pattern.1:	\\b(mailto|http|https|ftp|file):[/]*[\\w-]\\.[\\w./?&@#-]*[\\w/-]
 URxvt*matcher.pattern.2: 	\\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
