@@ -47,10 +47,19 @@ URxvt*boldFont:			xft:Bitstream Vera Sans Mono:pixelsize=16:bold
 URxvt*italicFont:		xft:Bitstream Vera Sans Mono:pixelsize=16:italic
 URxvt*boldItalicFont:		xft:Bitstream Vera Sans Mono:pixelsize=16:bold:italic
 URxvt*scrollBar:		0
-URxvt.perl-ext-common:		default,matcher
+#if HOSTNAME == phobos
+URxvt.perl-ext:                 default,matcher,rvid-on-brightnesschanged
+#else
+URxvt.perl-ext:                 default,matcher
+#endif
 URxvt.urlLauncher:              firefox
 URxvt.keysym.C-Delete:          perl:matcher
 URxvt.matcher.button:           1
+#if HOSTNAME == phobos
+URxvt.brightnessThreshold:      70
+URxvt.RGBColourFile:            /usr/share/X11/rgb.txt
+URxvt*perl-lib:                 /home/jochen/usr/lib/urxvt/perl
+#endif
 
 URxvtc*title:			urxvtc
 ssh_columbus*title:		ssh columbus
