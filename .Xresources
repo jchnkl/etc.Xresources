@@ -36,6 +36,7 @@ URxvt*background:		#393c39
 URxvt*colorBD:			#dfdfbf
 URxvt*colorUL:			#ffcfaf
 URxvt*colorIT:			#7f9f7f
+URxvt*colorRV:			#ffffff
 URxvt*cursorColor:		#8faf9f
 URxvt*cursorColor2:		#121212
 URxvt*fadeColor:		#3f3f3f
