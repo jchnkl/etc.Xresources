@@ -31,6 +31,7 @@ XTerm*faceSize:			12
 !urxvt resources
 URxvt*pointerBlank:		1
 URxvt*pointerBlankDelay:	1
+URxvt*urgentOnBell:		1
 URxvt*foreground:		#dedfbd
 URxvt*background:		#393c39
 URxvt*colorBD:			#dfdfbf
