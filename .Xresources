@@ -56,13 +56,13 @@ URxvt.underlineURLs:            true
 
 !use screen width to distinguish between hosts.
 !not super clean but it works
-#if WIDTH >= 4320
-URxvt.perl-ext:                 default,matcher
-#else
-URxvt.perl-ext:                 default,matcher,rvid-on-brightnesschanged
+#if WIDTH == 1440
+URxvt.perl-ext:                 default,matcher,rvid-on-brightnesschanged,url-select
 URxvt.brightnessThreshold:      70
 URxvt.RGBColourFile:            /usr/share/X11/rgb.txt
 URxvt*perl-lib:                 /home/jochen/usr/lib/urxvt/perl
+#else
+URxvt.perl-ext:                 default,matcher,url-select
 #endif
 
 URxvtc*title:			urxvtc
