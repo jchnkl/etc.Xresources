@@ -59,10 +59,10 @@ URxvt*cursorColor2:		#121212
 URxvt*fadeColor:		#3f3f3f
 URxvt*fading:			33
 URxvt*loginShell:		1
-URxvt*font:			xft:Bitstream Vera Sans Mono:pixelsize=16
-URxvt*boldFont:			xft:Bitstream Vera Sans Mono:pixelsize=16:bold
-URxvt*italicFont:		xft:Bitstream Vera Sans Mono:pixelsize=16:italic
-URxvt*boldItalicFont:		xft:Bitstream Vera Sans Mono:pixelsize=16:bold:italic
+URxvt*font:			xft:Inconsolata:pixelsize=16
+URxvt*boldFont:			xft:Inconsolata:pixelsize=16:bold
+URxvt*italicFont:		xft:Inconsolata:pixelsize=16:italic
+URxvt*boldItalicFont:		xft:Inconsolata:pixelsize=16:bold:italic
 URxvt*scrollBar:		0
 URxvt.urlLauncher:              firefox
 URxvt.keysym.C-Delete:          perl:matcher
