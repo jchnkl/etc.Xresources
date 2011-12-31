@@ -18,15 +18,21 @@ Tclock*overrideRedirect:	0
 Tkinfo*font:			-bitstream-bitstream vera sans-medium-r-*-*-*-*-*-*-*-*-*-*
 Tkinfo*Text.font:		-bitstream-bitstream vera sans-medium-r-*-*-*-*-*-*-*-*-*-*
 
-XTerm*termName:			xterm-color
-XTerm*toolBar:			off
-XTerm*background:		black
-XTerm*foreground:		lightgrey
-XTerm*cursorColor:		green
-XTerm*loginShell:		1
-XTerm*metaSendsEscape:		1
-XTerm*faceName:			Bitstream Vera Sans Mono
-XTerm*faceSize:			12
+! XTerm*termName:			xterm-color
+! XTerm*toolBar:			off
+! XTerm*background:		black
+! XTerm*foreground:		lightgrey
+! XTerm*cursorColor:		green
+! XTerm*loginShell:		1
+! XTerm*metaSendsEscape:		1
+! XTerm*faceName:			Bitstream Vera Sans Mono
+! XTerm*faceSize:			12
+
+! *faceName:		xft:Terminus:size=12
+! *font:			xft:Terminus:size=12
+! *boldFont:		xft:Terminus:size=12:bold
+! *italicFont:		xft:Terminus:size=12:italic
+! *boldItalicFont:	xft:Terminus:size=12:bold:italic
 
 !urxvt resources
 URxvt*pointerBlank:		1
@@ -126,8 +132,8 @@ ssh_columbus*title:		ssh columbus
 
 *background:            S_base03
 *foreground:            S_base00
-*fading:                40
-*fadeColor:             S_base03
+!*fading:                40
+!*fadeColor:             S_base03
 *cursorColor:           S_base1
 *pointerColorBackground:S_base01
 *pointerColorForeground:S_base1
@@ -163,3 +169,6 @@ ssh_columbus*title:		ssh columbus
 !! white dark/light
 *color7:                S_base2
 *color15:               S_base3
+
+XClock*foreground:		S_base00
+XClock*background:		S_base3
