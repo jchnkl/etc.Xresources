@@ -35,6 +35,7 @@ Tkinfo*Text.font:		-bitstream-bitstream vera sans-medium-r-*-*-*-*-*-*-*-*-*-*
 ! *boldItalicFont:	xft:Terminus:size=12:bold:italic
 
 !urxvt resources
+URxvt*cursorBlink:		1
 URxvt*pointerBlank:		1
 URxvt*pointerBlankDelay:	1
 URxvt*urgentOnBell:		1
