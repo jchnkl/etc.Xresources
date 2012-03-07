@@ -85,7 +85,7 @@ URxvt.underlineURLs:            true
 URxvt.perl-ext:                 default,matcher,rvid-on-brightnesschanged,url-select
 URxvt.brightnessThreshold:      70
 URxvt.RGBColourFile:            /usr/share/X11/rgb.txt
-URxvt*perl-lib:                 /home/jochen/usr/lib/urxvt/perl
+URxvt*perl-lib:                 /home/jochen/.local/lib/urxvt/perl
 #else
 URxvt.perl-ext:                 default,matcher,url-select
 #endif
