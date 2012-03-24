@@ -161,3 +161,7 @@ URxvt.perl-ext:                 default,matcher,url-select
 
 XClock*foreground:		S_base00
 XClock*background:		S_base3
+
+URxvt*colorBD:			S_base1
+URxvt*colorUL:			S_base1
+URxvt*colorIT:			S_base1
