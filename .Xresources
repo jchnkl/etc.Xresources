@@ -79,19 +79,7 @@ URxvt.matcher.button:           1
 URxvt.keysym.M-u:               perl:url-select:select_next
 URxvt.underlineURLs:            true
 
-!use screen width to distinguish between hosts.
-!not super clean but it works
-#if WIDTH == 1440
-URxvt.perl-ext:                 default,matcher,rvid-on-brightnesschanged,url-select
-URxvt.brightnessThreshold:      70
-URxvt.RGBColourFile:            /usr/share/X11/rgb.txt
-URxvt*perl-lib:                 /home/jochen/.local/lib/urxvt/perl
-#else
 URxvt.perl-ext:                 default,matcher,url-select
-#endif
-
-URxvtc*title:			urxvtc
-ssh_columbus*title:		ssh columbus
 
 !! drop in Solarized colorscheme for Xresources/Xdefaults
 
