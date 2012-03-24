@@ -68,10 +68,10 @@ URxvt*urgentOnBell:		1
 !URxvt*fadeColor:		#3f3f3f
 !URxvt*fading:			33
 URxvt*loginShell:		1
-URxvt*font:			xft:Terminus:size=12
-URxvt*boldFont:			xft:Terminus:size=12:bold
-URxvt*italicFont:		xft:Terminus:size=12:italic
-URxvt*boldItalicFont:		xft:Terminus:size=12:bold:italic
+URxvt*font:			xft:Terminus:size=12:autohint=true
+URxvt*boldFont:			xft:Terminus:size=12:bold:autohint=true
+URxvt*italicFont:		xft:Bitstream Vera Sans Mono:size=10:italic:autohint=true
+URxvt*boldItalicFont:		xft:Bitstream Vera Sans Mono:size=10:bold:italic:autohint=true
 URxvt*scrollBar:		0
 URxvt.urlLauncher:              firefox
 URxvt.keysym.C-Delete:          perl:matcher
