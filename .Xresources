@@ -70,8 +70,8 @@ URxvt*urgentOnBell:		1
 URxvt*loginShell:		1
 URxvt*font:			xft:Terminus:size=12:autohint=true
 URxvt*boldFont:			xft:Terminus:size=12:bold:autohint=true
-URxvt*italicFont:		xft:Bitstream Vera Sans Mono:size=10:italic:autohint=true
-URxvt*boldItalicFont:		xft:Bitstream Vera Sans Mono:size=10:bold:italic:autohint=true
+URxvt*italicFont:		xft:Deja Vu Sans Mono:italic:size=10:autohint=true
+URxvt*boldItalicFont:		xft:Deja Vu Sans Mono:bold:italic:size=10:autohint=true
 URxvt*scrollBar:		0
 URxvt.urlLauncher:              firefox
 URxvt.keysym.C-Delete:          perl:matcher
