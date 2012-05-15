@@ -1,4 +1,4 @@
-#include ".submodules/solarized/xresources-colors-solarized/Xresources"
+#include "submodules/solarized/xresources-colors-solarized/Xresources"
 
 vncviewer*fullScreen:		1
 vncviewer*userLogin:		1
