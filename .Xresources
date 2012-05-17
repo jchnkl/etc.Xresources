@@ -1,5 +1,7 @@
 #include ".Xresources.solarized"
 
+*fading:			0
+
 vncviewer*fullScreen:		1
 vncviewer*userLogin:		1
 vncviewer*passwordDialog:	1
