@@ -49,3 +49,9 @@ XClock*background:		S_base3
 URxvt*colorBD:			S_base1
 URxvt*colorUL:			S_base1
 URxvt*colorIT:			S_base1
+
+XLock.mode:                     nose
+XLock.program:                  fortune calvin futurama hitchhiker matrix
+XLock.font:                     -*-dejavu sans light-*-r-*-*-*-*-*-*-*-*-*-*
+XLock.planfont:                 -*-dejavu sans light-*-r-*-*-*-*-*-*-*-*-*-*
+XLock.messagefont:              -*-dejavu sans light-*-r-*-*-*-*-*-*-*-*-*-*
