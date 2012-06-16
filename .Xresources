@@ -23,6 +23,9 @@ Tkinfo*font:			-bitstream-bitstream vera sans-medium-r-*-*-*-*-*-*-*-*-*-*
 Tkinfo*Text.font:		-bitstream-bitstream vera sans-medium-r-*-*-*-*-*-*-*-*-*-*
 
 !urxvt resources
+! Disable ISO mode which blocks C-S
+URxvt*iso14755:                 False
+URxvt*iso14755_52:              False
 URxvt*cursorBlink:		1
 URxvt*pointerBlank:		1
 URxvt*pointerBlankDelay:	1
