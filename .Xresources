@@ -95,6 +95,9 @@ URxvt*colorBD:			S_base1
 URxvt*colorUL:			S_base1
 URxvt*colorIT:			S_base1
 
+XLock.usefirst:                 true
+XLock.allowaccess:              true
+XLock.vtlock:                   off
 XLock.mode:                     nose
 XLock.program:                  fortune calvin futurama hitchhiker matrix
 XLock.font:                     -*-dejavu sans light-*-r-*-*-*-*-*-*-*-*-*-*
