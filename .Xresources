@@ -38,11 +38,11 @@ URxvt*italicFont:		xft:Deja Vu Sans Mono:italic:size=8:autohint=true
 URxvt*boldItalicFont:		xft:Deja Vu Sans Mono:bold:italic:size=8:autohint=true
 URxvt*scrollBar:		0
 URxvt*searchable-scrollback:    ""
-URxvt.urlLauncher:              firefox
 URxvt.keysym.C-Delete:          perl:matcher
 URxvt.matcher.button:           1
-URxvt.keysym.M-u:               perl:url-select:select_next
-URxvt.underlineURLs:            true
+URxvt*keysym.M-u:            perl:url-select:select_next
+URxvt*url-select.underline:  true
+URxvt*url-select.launcher:   xdg-open
 
 ! solarized dark
 ! *foreground:            S_base00 (#657b83)
