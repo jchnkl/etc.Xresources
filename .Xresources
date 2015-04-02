@@ -1,5 +1,4 @@
-! #include ".Xresources.solarized.light"
-#include ".Xresources.solarized.dark"
+#include ".Xresources.solarized.light"
 
 *fading:			0
 
