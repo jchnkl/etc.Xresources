@@ -102,3 +102,15 @@ XLock.program:                  fortune calvin futurama hitchhiker matrix
 XLock.font:                     -*-dejavu sans light-*-r-*-*-*-*-*-*-*-*-*-*
 XLock.planfont:                 -*-dejavu sans light-*-r-*-*-*-*-*-*-*-*-*-*
 XLock.messagefont:              -*-dejavu sans light-*-r-*-*-*-*-*-*-*-*-*-*
+
+XChoyce.mod:                    mod4
+XChoyce.action:                 Tab
+XChoyce.focusedalpha:           0.75
+XChoyce.focusedcolor:           #daa520
+XChoyce.unfocusedalpha:         0.5
+XChoyce.unfocusedcolor:         #404040
+XChoyce.titlebgcolor:           #292929
+XChoyce.titlebgalpha:           0.25
+XChoyce.titlefgcolor:           #616161
+XChoyce.titlefont:              Ubuntu:bold:pixelsize=28:antialias=true
+XChoyce.subtitlefont:           Ubuntu Condensed:bold:pixelsize=18:antialias=true
