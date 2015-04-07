@@ -82,6 +82,8 @@ URxvt.keysym.M-C-equal:         \033[32~
 URxvt.keysym.C-Tab:             \033[33~
 ! F20
 URxvt.keysym.C-BackSpace:       \033[34~
+! F21
+URxvt.keysym.C-Return:          \033[35~
 
 URxvt.perl-ext:                 default,matcher,url-select
 
