@@ -98,10 +98,13 @@ XLock.usefirst:                 true
 XLock.allowaccess:              true
 XLock.vtlock:                   off
 XLock.mode:                     nose
-XLock.program:                  fortune calvin futurama hitchhiker matrix
-XLock.font:                     -*-dejavu sans light-*-r-*-*-*-*-*-*-*-*-*-*
-XLock.planfont:                 -*-dejavu sans light-*-r-*-*-*-*-*-*-*-*-*-*
-XLock.messagefont:              -*-dejavu sans light-*-r-*-*-*-*-*-*-*-*-*-*
+XLock.program:                  fortune paradoxum
+XLock.fpsfont:                  -xos4-terminus-bold-*-*-*-18-*-*-*-*-*-*-*
+XLock.font:                     -xos4-terminus-bold-*-*-*-18-*-*-*-*-*-*-*
+XLock.fontset:                  -xos4-terminus-bold-*-*-*-18-*-*-*-*-*-*-*
+XLock.planfont:                 -xos4-terminus-bold-*-*-*-18-*-*-*-*-*-*-*
+XLock.planfontset:              -xos4-terminus-bold-*-*-*-18-*-*-*-*-*-*-*
+XLock.messagefont:              -xos4-terminus-bold-*-*-*-18-*-*-*-*-*-*-*
 
 XChoyce.mod:                    mod4
 XChoyce.action:                 Tab
