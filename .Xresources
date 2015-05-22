@@ -106,6 +106,8 @@ XLock.planfont:                 -xos4-terminus-bold-*-*-*-18-*-*-*-*-*-*-*
 XLock.planfontset:              -xos4-terminus-bold-*-*-*-18-*-*-*-*-*-*-*
 XLock.messagefont:              -xos4-terminus-bold-*-*-*-18-*-*-*-*-*-*-*
 
+Xautolock.time: 10
+
 XChoyce.mod:                    mod4
 XChoyce.action:                 Tab
 XChoyce.focusedalpha:           0.75
