@@ -34,8 +34,8 @@ URxvt*urgentOnBell:		1
 URxvt*loginShell:            1
 URxvt*font:                  -misc-termsynu-medium-r-normal--13-*-*-*-*-*-*-*
 URxvt*boldFont:              -misc-termsynu-bold-r-normal--13-*-*-*-*-*-*-*
-URxvt*italicFont:            xft:Deja Vu Sans Mono:italic
-URxvt*boldItalicFont:        xft:Deja Vu Sans Mono:italic:bold
+URxvt*italicFont:            xft:Deja Vu Sans Mono:italic:pixelsize=10
+URxvt*boldItalicFont:        xft:Deja Vu Sans Mono:italic:bold:pixelsize=10
 URxvt*scrollBar:             0
 URxvt*searchable-scrollback: ""
 URxvt*keysym.M-u:            perl:url-select:select_next
