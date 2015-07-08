@@ -32,8 +32,8 @@ URxvt*pointerBlankDelay:	1
 URxvt*urgentOnBell:		1
 
 URxvt*loginShell:            1
-URxvt*font:                  -misc-termsynu-medium-r-normal--13-*-*-*-*-*-*-*
-URxvt*boldFont:              -misc-termsynu-bold-r-normal--13-*-*-*-*-*-*-*
+URxvt*font:                  -misc-termsynu-medium-r-normal--14-*-*-*-*-*-*-*
+URxvt*boldFont:              -misc-termsynu-bold-r-normal--14-*-*-*-*-*-*-*
 URxvt*italicFont:            xft:Deja Vu Sans Mono:italic:pixelsize=10
 URxvt*boldItalicFont:        xft:Deja Vu Sans Mono:italic:bold:pixelsize=10
 URxvt*scrollBar:             0
