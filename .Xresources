@@ -38,7 +38,8 @@ URxvt*italicFont:            xft:Deja Vu Sans Mono:italic:pixelsize=10
 URxvt*boldItalicFont:        xft:Deja Vu Sans Mono:italic:bold:pixelsize=10
 URxvt*scrollBar:             0
 URxvt*searchable-scrollback: ""
-URxvt*keysym.M-u:            perl:url-select:select_next
+URxvt*keysym.C-M-u:            perl:url-select:select_next
+URxvt*keysym.C-M-bracketleft:  perl:keyboard-select:activate
 URxvt*url-select.underline:  true
 URxvt*url-select.launcher:   xdg-open
 
@@ -68,7 +69,7 @@ URxvt.keysym.C-BackSpace:       \033[34~
 ! F21
 URxvt.keysym.C-Return:          \033[35~
 
-URxvt.perl-ext:                 default,matcher,url-select
+URxvt.perl-ext:                 default,matcher,url-select,keyboard-select
 
 XClock*foreground:		S_base00
 XClock*background:		S_base3
